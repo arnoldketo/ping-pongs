@@ -57,10 +57,10 @@ function config(h){
 $(document).ready(function(){
 	$("#replies-form").submit(function(event){
 		event.preventDefault();
-		$("#reply").empty();
+		$("ul#reply").empty();
 		var userInput=parseInt($("input#replies-Input").val());
 		for(var h=1; h<=userInput; h+=1){
-			$("#reply").append("<li>"+pingPong(h)+"</li>");
+			$("ul#reply").append("<li>"+config(h)+"</li>");
 		}
 	});
 });
