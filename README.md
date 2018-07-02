@@ -3,6 +3,14 @@
 #### Returns a set of numbers based on the userinput and replaces them with ping or pong
 #### By Arnold
 ## Description
+1.It collects the user input
+2.Converts the user input to a number
+3.Make a function called config that has a parameter h and performs operations on it
+4.If h is divisible by 3 return ping 
+5.If h is divisible by 4 return pong
+6.If h is divisible by 15 return pingpong
+7.Otherwise return h
+8.A loop is then created that returns a result that is less or equal to the user input
 ## Setup/Installation Requirements
 Go to https://arnoldketo/github.io/ping-pongs
 ## Known Bugs
